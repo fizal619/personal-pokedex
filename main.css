@@ -1,0 +1,86 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  background: tomato;
+  padding: 10px;
+  color: white;
+}
+
+#flag {
+  width: 25px;
+  border-radius: 0;
+}
+
+header img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+header input {
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pokemon {
+  text-align: center;
+  width: 200px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.pokemon ul  {
+  text-align: left;
+}
+
+.pokemon img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.pokemon p {
+  font-weight: bold;
+}
+
+#error {
+  color: black;
+  /* background-color: white; */
+  padding: 10px;
+  display: inline;
+  animation: flash 0.5s infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
